@@ -1,6 +1,6 @@
 # First concept, creates a giantic number.
 
-s = str(len(bytes(0x0fffffff))**len(bytes(0xff09)))
+s = 0x3f**28805 
 # print(s)
 l = []
 
