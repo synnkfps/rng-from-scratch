@@ -1,12 +1,6 @@
-# First concept, creates a giantic number.
+num = int(str(hash('random'))[5:6])
 
-s = 0x3f**28805 
-# print(s)
-l = []
+size = 2
+rng = str(abs(hash('d')))[num:num+size]
 
-for i in s:
-    l.insert(0, i)
-    if len(l)>3:
-        l.pop(-1)
-
-print('\n', l)
+print(rng)
